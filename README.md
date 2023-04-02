@@ -102,6 +102,19 @@ Just a summary of resources above for easier reference.
   - http://www.ctyme.com/intr/int.htm
 
 Next few days (maybe?) start looking into how to move from bootloader to OS.
+
+## 2022-10-29 -- Continuing
+
+Continue, but instead of OS, maybe we shall try stage 1 bootloader first.
+
+Goals:
+- Find where we exec from for bios.
+- Initialize hardware device for printing. (see seabios)
+- Print to device.
+
+What's going on with devices:
+- https://www.qemu.org/2018/02/09/understanding-qemu-devices/
+- https://wiki.osdev.org/System_Initialization_(x86)
    
 ### Other notes for UEFI
 
